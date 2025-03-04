@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<head>
+    <title>WiSECURE User Documents</title>
+    <style>
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+}
+.container {
+    background: rgb(255, 255, 255);
+    transition: background 100ms ease-in-out;
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-grow: 1;
+    flex-basis: auto;
+    flex-direction: row;
+    flex-wrap: initial;
+    flex-shrink: initial;
+    gap: initial;
+    min-width: 0px;
+}
+.sidebar {
+    z-index: 900;
+    margin: 0px;
+    min-width: 0px;
+    transform: translateX(0px);
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    background: rgb(237, 242, 247);
+    transition: box-shadow 100ms ease-in-out, opacity 100ms ease-in-out, transform 100ms ease-out, background 100ms ease-in-out;
+    z-index: 930;
+    max-width: 80%;
+    display: flex;
+    flex: initial;
+    flex-direction: column;
+    flex-wrap: initial;
+    gap: initial;
+    min-height: 0px;
+}
+.logo {
+    opacity: 1;
+    display: flex;
+    flex-grow: initial;
+    flex-basis: initial;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    flex-wrap: initial;
+    flex-shrink: 0;
+    gap: initial;
+    min-height: 0px;
+    min-width: 0px;
+}
+.logo > * {
+    flex: 1 0 0%;
+    color: rgb(155, 166, 178);
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 4px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 4px;
+    border: 0px;
+    margin: 16px 8px;
+    background: none;
+    appearance: none;
+    text-decoration: none;
+    text-align: left;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    flex: initial;
+    flex-direction: row;
+    flex-wrap: initial;
+    gap: initial;
+    min-height: 0px;
+    min-width: 0px;
+}
+
+.iAAzET {
+    display: flex;
+    flex: initial;
+    flex-direction: row;
+    flex-wrap: initial;
+    gap: initial;
+    min-height: 0px;
+    min-width: 0px;
+}
+.ksXcPP {
+    position: relative;
+    flex-direction: column;
+    margin: 0px 8px 12px;
+    min-width: 200px;
+    flex-shrink: 0;
+}
+.language-icon {
+            width: 24px;
+            height: 24px;
+            fill: rgb(155, 166, 178);
+        }
+
+.kKzjdi {
+    padding: 4px 8px 4px 16px;
+    font-size: 14px;
+    display: flex;
+    position: relative;
+    text-overflow: ellipsis;
+    border-radius: 4px;
+    min-height: 32px;
+    transition: background 50ms, color 50ms;
+    user-select: none;
+    background: inherit;
+    color: rgb(78, 92, 110);
+    cursor: pointer;
+    overflow: hidden;
+}
+.kKzjdi:hover {
+        color: rgb(17, 19, 25);
+    }
+a {
+    color: rgb(3, 102, 214);
+    text-decoration: none;
+    cursor: pointer;
+}
+a {
+    background-color: transparent;
+}
+* {
+    box-sizing: border-box;
+}
+
+.eULMdd {
+    display: flex;
+    -webkit-box-align: start;
+    align-items: start;
+    position: relative;
+    width: 100%;
+}
+
+.kFIuxx {
+    position: relative;
+    width: 100%;
+    max-height: 4.8em;
+    line-height: 24px;
+}
+
+.eNgZHu > div {
+    opacity: 1;
+}
+.pb {
+    padding-bottom: 16px;
+}
+.bVDOmk {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden auto;
+    overscroll-behavior: none;
+    box-shadow: none;
+    transition: box-shadow 100ms ease-in-out;
+}
+
+
+.child-items {
+    margin-left: 24px;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease-out;
+
+}
+
+.child-item {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    min-height: 28px;
+    transition: background 50ms, color 50ms;
+    user-select: none;
+    background: inherit;
+    color: rgb(78, 92, 110);
+    cursor: pointer;
+    text-decoration: none;
+}
+.child-item:hover {
+        color: rgb(17, 19, 25);
+        background: rgba(0, 0, 0, 0.05);
+    }
+
+.parent-item.expanded + .child-items {
+    max-height: 500px;
+}
+
+/* .download-icon {
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+    fill: rgb(78, 92, 110);
+} */
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="sidebar" style="width: 260px;">
+                <div class="logo">
+                    <div style="flex-direction: column">
+
+                            <div style="flex-shrink:1 ;display: flex; flex-direction: row;align-items: center;flex-wrap: initial;gap: 8px;min-height: 0px;min-width: 0px;">
+                                <img src="./favicon1.png"  alt="Logo" style="height: 32px;">
+                            </div>
+                            <p style="flex: 1;">  WiSECURE User Documents</p>
+
+                    </div>
+                </div>
+
+                <div class="sc-1y3mfc-0 bVDOmk pb">
+                    <div class="sc-yzlt5i-0 sc-1lzclg2-0 iAAzET ksXcPP">
+                        
+                        <div id="english-content" class="language-content active">
+
+                            <a class="sc-tyaw0p-3 kKzjdi parent-item" style="padding-left: 12px;" onclick="toggleItems(this, 'evb-children')">
+                                <span class="sc-tyaw0p-0 eULMdd">
+                                    <div class="sc-tyaw0p-4 kFIuxx">EVB</div>
+                                </span>
+                            </a>
+
+                            <div id="evb-children" class="child-items">
+                                <!-- <a class="child-item"  onclick="downloadFile('./EVB.pdf', 'EVB.pdf')">
+                                 
+                                    <span>Download test program</span>                  
+                                </a> -->
+                                <a class="child-item" href="./EVB.pdf" target="content">
+                                    <span>EVB Documentation</span>
+                                </a>
+                                <a class="child-item" href="./EVB_SDK.pdf" target="content">
+                                    <span>EVB SDK Documentation</span>
+                                </a>
+                            </div>
+
+                            <a class="sc-tyaw0p-3 kKzjdi"  style="padding-left: 12px;" target="content">
+                                <span class="sc-tyaw0p-0 eULMdd">
+                                    <div class="sc-tyaw0p-4 kFIuxx"> SAMURAI</div>
+                                </span>
+                            </a>
+                          
+                        </div>
+
+                    </div>
+                </div>
+                <div class="logo">
+                    <span style="flex: 1;">Rev. 20250304</span>
+                    
+                </div>
+        </aside>
+        <main style="margin-left: 260px; display: flex; flex: 1; flex-direction: row;">
+            <div style="display: flex; flex: 1; flex-direction: column;">
+                <iframe style="border: 0; flex: 1;" name="content" src="./EVB.pdf"></iframe>
+            </div>
+        </main>
+    </div>
+    <script>
+        function toggleItems(element, childId) {
+            // Toggle expanded class on parent
+            element.classList.toggle('expanded');
+            
+            // Alternative way to toggle visibility using direct style manipulation
+            var childElement = document.getElementById(childId);
+            if (element.classList.contains('expanded')) {
+                childElement.style.maxHeight = childElement.scrollHeight + "px";
+            } else {
+                childElement.style.maxHeight = "0";
+            }
+        }
+
+        function downloadFile(fileUrl, fileName) {
+            const link = document.createElement('a');
+
+            link.href = fileUrl;
+            link.download = fileName; // 空字符串會使用原始檔名
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+        
+    </script>
+</body>
